@@ -1,4 +1,7 @@
 == Changelog ==
+= 1.3.1.1 2025-01-18 =
+* Update - WP 6.9 and WC 10.4.3 Compatibility added.
+* Update - Translation string updated.
 
 = 1.3.1 2025-12-15 =
 * Fix - CSS Inliner raises error on WooCommerce older version.

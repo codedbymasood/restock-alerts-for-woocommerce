@@ -151,10 +151,9 @@ final class RESTALER {
 		$onboarding_initialized = true;
 
 		$steps = array(
-			'welcome'            => 'Welcome',
-			'license-activation' => 'Activate License',
-			'settings'           => 'General Setup',
-			'finish'             => 'Finish',
+			'welcome'  => esc_html__( 'Welcome', 'restock-alerts-for-woocommerce' ),
+			'settings' => esc_html__( 'General Setup', 'restock-alerts-for-woocommerce' ),
+			'finish'   => esc_html__( 'Finish', 'restock-alerts-for-woocommerce' ),
 		);
 
 		new \STOBOKIT\Onboarding(

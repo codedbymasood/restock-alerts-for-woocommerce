@@ -1,9 +1,9 @@
 === Restock Alerts for WooCommerce ===
 Tags: online store, ecommerce, shop, shopping cart, sell online
 Requires at least: 6.6
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.2.0
+Stable tag: 1.3.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -28,7 +28,7 @@ Add a `Notify Me` button for out-of-stock items. Store owner gets the list, user
 5. **Track & optimize** – Monitor which products are most in-demand
 
 = Features =
-
+http://localhost/wordpress/wp-admin/about.php
 - **Variable product support** – Works with simple and variable products
 - **Automated alerts** when products come back in stock
 - **Email verification** to maintain a clean subscriber list
@@ -138,6 +138,16 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 If you encounter issues with the pages after an update, flush the permalinks by going to WordPress > Settings > Permalinks and hitting "Save." That should return things to normal.
 
 == Changelog ==
+= 1.3.1.1 2025-01-18 =
+* Update - WP 6.9 and WC 10.4.3 Compatibility added.
+* Update - Translation string updated.
+
+= 1.3.1 2025-12-15 =
+* Fix - CSS Inliner raises error on WooCommerce older version.
+
+= 1.3.0 2025-12-12 =
+* Fix - Always show notify form, if stock threshold is enabled.
+* Fix - Email CSS Inliner issue fixed.
 
 = 1.2.0 2025-10-28 =
 * Add - Email queue table added for performance.

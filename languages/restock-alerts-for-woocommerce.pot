@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: QA for WooCommerce\n"
-"POT-Creation-Date: 2025-07-11 09:36+0530\n"
+"POT-Creation-Date: 2026-01-17 19:09+0530\n"
 "PO-Revision-Date: 2018-09-20 12:16+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -17,213 +17,734 @@ msgstr ""
 "_x\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../admin/class-admin.php:70
-msgid "Notify List"
+#: ../common/admin/class-admin.php:63
+msgid "Export to CSV"
 msgstr ""
 
-#: ../admin/class-admin.php:71
-msgid "Notify Table"
-msgstr ""
-
-#: ../admin/class-admin.php:82
-msgid "Email Notifications"
-msgstr ""
-
-#: ../admin/class-admin.php:172 ../admin/view/settings-page.php:33
-#: ../template/email/back-in-stock-email.php:16
-msgid "Back in Stock!"
-msgstr ""
-
-#: ../admin/class-admin.php:181 ../public/class-cron.php:60
-#: ../public/class-cron.php:80 ../public/class-frontend.php:163
-msgid "Mail failed to sent."
-msgstr ""
-
-#: ../admin/class-admin.php:183 ../public/class-cron.php:62
-#: ../public/class-cron.php:82 ../public/class-frontend.php:165
-msgid "Mail sent successfully."
-msgstr ""
-
-#: ../admin/class-notify-list-table.php:39
+#: ../common/admin/class-admin.php:69
+#: ../common/admin/class-notify-list-table.php:38
+#: ../core/class-cron-logs-table.php:38 ../core/class-email-logs-table.php:38
+#: ../core/class-list-table.php:95
 msgid "ID"
 msgstr ""
 
-#: ../admin/class-notify-list-table.php:40
+#: ../common/admin/class-admin.php:70
+#: ../common/admin/class-notify-list-table.php:39
+#: ../core/class-email-logs-table.php:39
 msgid "Email"
 msgstr ""
 
-#: ../admin/class-notify-list-table.php:41
-msgid "Product ID"
+#: ../common/admin/class-admin.php:71
+#: ../common/admin/class-notify-list-table.php:40 ../core/views/license.php:23
+msgid "Product"
 msgstr ""
 
-#: ../admin/class-notify-list-table.php:42
+#: ../common/admin/class-admin.php:72
+#: ../common/admin/class-notify-list-table.php:41
+msgid "Variation"
+msgstr ""
+
+#: ../common/admin/class-admin.php:73
+#: ../common/admin/class-notify-list-table.php:42 ../core/class-admin.php:274
+#: ../core/class-admin.php:275 ../core/class-cron-logs-table.php:40
+#: ../core/views/license.php:24 ../core/views/status.php:23
 msgid "Status"
 msgstr ""
 
-#: ../admin/class-notify-list-table.php:43
+#: ../common/admin/class-admin.php:74
+#: ../common/admin/class-notify-list-table.php:43
+#: ../core/class-cron-logs-table.php:42
 msgid "Created At"
 msgstr ""
 
-#: ../admin/class-notify-list-table.php:87
-msgid "Delete permanently"
+#: ../common/admin/class-admin.php:102 ../common/admin/class-admin.php:103
+msgid "Restock Alerts"
 msgstr ""
 
-#: ../admin/view/settings-page.php:18
-msgid "Mail Settings"
+#: ../common/admin/class-admin.php:116
+msgid "Email Notifications"
 msgstr ""
 
-#: ../admin/view/settings-page.php:21
-msgid "From Name"
+#: ../common/admin/class-admin.php:211 ../common/admin/class-admin.php:212
+#: ../common/admin/view/email-templates.php:114
+#: ../common/admin/view/email-templates.php:120
+#: ../includes/views/email-templates.php:114
+#: ../includes/views/email-templates.php:120
+msgid "Back in Stock!"
 msgstr ""
 
-#: ../admin/view/settings-page.php:26 ../admin/view/settings-page.php:31
-msgid "From Address"
+#: ../common/admin/class-admin.php:253 ../common/public/class-frontend.php:246
+msgid "Mail failed to sent."
 msgstr ""
 
-#: ../admin/view/settings-page.php:37
-msgid "Enable Followup"
+#: ../common/admin/class-admin.php:255 ../common/public/class-frontend.php:248
+msgid "Mail sent successfully."
 msgstr ""
 
-#: ../admin/view/settings-page.php:43
-msgid "First Followup Days"
+#: ../common/admin/view/email-templates.php:72
+#: ../includes/views/email-templates.php:72
+msgid "Verification Email"
 msgstr ""
 
-#: ../admin/view/settings-page.php:49
-msgid "First Followup Email Subject"
+#: ../common/admin/view/email-templates.php:75
+#: ../common/admin/view/email-templates.php:112
+#: ../common/admin/view/email-templates.php:144
+#: ../common/admin/view/email-templates.php:176
+#: ../core/class-email-logs-table.php:40
+#: ../includes/views/email-templates.php:75
+#: ../includes/views/email-templates.php:112
+#: ../includes/views/email-templates.php:144
+#: ../includes/views/email-templates.php:176
+msgid "Subject"
 msgstr ""
 
-#: ../admin/view/settings-page.php:51 ../public/class-cron.php:51
-msgid "Just a Quick Reminder"
-msgstr ""
-
-#: ../admin/view/settings-page.php:55
-msgid "Second Followup Days"
-msgstr ""
-
-#: ../admin/view/settings-page.php:61
-msgid "Second Followup Email Subject"
-msgstr ""
-
-#: ../admin/view/settings-page.php:63 ../public/class-cron.php:71
-msgid "Last Chance! 20% Off Ends in 3 Days"
-msgstr ""
-
-#: ../admin/view/settings-page.php:66
-msgid "Discount"
-msgstr ""
-
-#: ../admin/view/settings-page.php:69
-msgid "Discount Type"
-msgstr ""
-
-#: ../admin/view/settings-page.php:72
-msgid "Percentage discount"
-msgstr ""
-
-#: ../admin/view/settings-page.php:73
-msgid "Fixed cart discount"
-msgstr ""
-
-#: ../admin/view/settings-page.php:78
-msgid "Discount Amount"
-msgstr ""
-
-#: ../admin/view/settings-page.php:84
-msgid "Coupon Expires In"
-msgstr ""
-
-#: ../admin/view/settings-page.php:94 ../admin/view/settings-page.php:95
-msgid "Settings"
-msgstr ""
-
-#: ../public/class-frontend.php:98
-msgid "Nonce failed."
-msgstr ""
-
-#: ../public/class-frontend.php:145
-msgid "Email already added in this product."
-msgstr ""
-
-#: ../public/class-frontend.php:148
-msgid "Please enter the email address."
-msgstr ""
-
-#: ../public/class-frontend.php:154
+#: ../common/admin/view/email-templates.php:77
+#: ../common/public/class-frontend.php:202
+#: ../includes/views/email-templates.php:77
 msgid "Send verification email"
 msgstr ""
 
-#: ../public/class-frontend.php:184
-msgid "Enter your email address"
+#: ../common/admin/view/email-templates.php:81
+#: ../common/admin/view/email-templates.php:118
+#: ../common/admin/view/email-templates.php:150
+#: ../common/admin/view/email-templates.php:182
+#: ../includes/views/email-templates.php:81
+#: ../includes/views/email-templates.php:118
+#: ../includes/views/email-templates.php:150
+#: ../includes/views/email-templates.php:182
+msgid "Heading"
 msgstr ""
 
-#: ../public/class-frontend.php:185
-msgid "Notify Me"
-msgstr ""
-
-#: ../template/email/back-in-stock-email.php:20
-msgid "Good news!"
-msgstr ""
-
-#: ../template/email/back-in-stock-email.php:21
-msgid "The product you were waiting for is now back in stock"
-msgstr ""
-
-#: ../template/email/back-in-stock-email.php:24
-#: ../template/email/urgency-followup-email.php:38
-msgid "Buy Now"
-msgstr ""
-
-#: ../template/email/back-in-stock-email.php:27
-msgid "Don't wait too long, popular products sell out quickly!"
-msgstr ""
-
-#: ../template/email/still-interested-followup-email.php:31
-msgid ""
-"If you're still thinking it over, no rush! We're here if you have any "
-"questions or need help deciding if it's the right fit for you."
-msgstr ""
-
-#: ../template/email/still-interested-followup-email.php:33
-msgid "View Product"
-msgstr ""
-
-#: ../template/email/still-interested-followup-email.php:35
-msgid "Sometimes all it takes is a second look."
-msgstr ""
-
-#: ../template/email/still-interested-followup-email.php:37
-msgid "Thanks again for your interest!"
-msgstr ""
-
-#: ../template/email/urgency-followup-email.php:40
-msgid "Don't miss out - after this, it's back to full price."
-msgstr ""
-
-#: ../template/email/verification-email.php:29
+#: ../common/admin/view/email-templates.php:83
+#: ../common/includes/class-hooks.php:170
+#: ../common/includes/class-hooks.php:199
+#: ../common/public/class-frontend.php:203
+#: ../includes/views/email-templates.php:83
 msgid "Confirm your email"
 msgstr ""
 
-#: ../template/email/verification-email.php:30
-msgid "Hi there,"
+#: ../common/admin/view/email-templates.php:87
+#: ../common/admin/view/email-templates.php:124
+#: ../common/admin/view/email-templates.php:156
+#: ../common/admin/view/email-templates.php:188
+#: ../includes/views/email-templates.php:87
+#: ../includes/views/email-templates.php:124
+#: ../includes/views/email-templates.php:156
+#: ../includes/views/email-templates.php:188
+msgid "Email Content"
 msgstr ""
 
-#: ../template/email/verification-email.php:31
+#: ../common/admin/view/email-templates.php:99
+#: ../common/admin/view/email-templates.php:136
+#: ../common/admin/view/email-templates.php:168
+#: ../common/admin/view/email-templates.php:200
+#: ../includes/views/email-templates.php:99
+#: ../includes/views/email-templates.php:136
+#: ../includes/views/email-templates.php:168
+#: ../includes/views/email-templates.php:200
+msgid "Footer Text"
+msgstr ""
+
+#: ../common/admin/view/email-templates.php:102
+#: ../common/includes/class-hooks.php:174
+#: ../common/includes/class-hooks.php:203
+#: ../common/public/class-frontend.php:207
+#: ../includes/views/email-templates.php:102
 msgid ""
-"Thanks for signing up. Please confirm your email address by clicking the "
-"button below:"
+"You're receiving this email because you registered with {site_name}.\n"
+"\n"
+"If you didn't request this, please ignore it."
 msgstr ""
 
-#: ../template/email/verification-email.php:33
+#: ../common/admin/view/email-templates.php:109
+#: ../includes/views/email-templates.php:109
+msgid "Back In Stock Email"
+msgstr ""
+
+#: ../common/admin/view/email-templates.php:141
+#: ../includes/views/email-templates.php:141
+msgid "First Follow Up Email"
+msgstr ""
+
+#: ../common/admin/view/email-templates.php:146
+#: ../common/admin/view/email-templates.php:152
+#: ../includes/views/email-templates.php:146
+#: ../includes/views/email-templates.php:152
+msgid "Still on your mind?"
+msgstr ""
+
+#: ../common/admin/view/email-templates.php:170
+#: ../common/admin/view/email-templates.php:202
+#: ../includes/views/email-templates.php:170
+#: ../includes/views/email-templates.php:202
+msgid "Thanks again for your interest!"
+msgstr ""
+
+#: ../common/admin/view/email-templates.php:173
+#: ../includes/views/email-templates.php:173
+msgid "Second Follow Up Email"
+msgstr ""
+
+#: ../common/admin/view/email-templates.php:178
+#: ../includes/views/email-templates.php:178
+msgid "Last Chance! {discount} Off Ends in {coupon_expires} Days"
+msgstr ""
+
+#: ../common/admin/view/email-templates.php:184
+#: ../includes/views/email-templates.php:184
+msgid "Your {discount} Discount Is About to Expire"
+msgstr ""
+
+#: ../common/admin/view/email-templates.php:211
+#: ../common/admin/view/email-templates.php:212
+#: ../includes/views/email-templates.php:211
+#: ../includes/views/email-templates.php:212
+msgid "Email Templates"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:18
+msgid "Mail Settings"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:21
+#: ../onboarding/step-settings.php:21
+msgid "From Name"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:26
+#: ../onboarding/step-settings.php:25
+msgid "From Email Address"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:30
+msgid "General Settings"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:33
+msgid "Show Signup Message"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:39
+msgid "Signup Message"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:41 ../templates/notify-form.php:19
+msgid "Want a reminder when more arrives? Sign up below."
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:45
+msgid "Stock Threshold"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:51
+msgid "Stock Threshold Count"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:56
+msgid "Followup Email Settings"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:59
+msgid "Enable Followup"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:65
+msgid "First Followup Days"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:71
+msgid "Second Followup Days"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:77
+msgid "Discount Type"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:80
+msgid "Percentage discount"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:81
+msgid "Fixed cart discount"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:86
+#: ../onboarding/step-settings.php:33
+msgid "Discount Amount"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:92
+#: ../onboarding/step-settings.php:37
+msgid "Coupon Expires In"
+msgstr ""
+
+#: ../common/admin/view/settings-page.php:103
+#: ../common/admin/view/settings-page.php:104
+msgid "Settings"
+msgstr ""
+
+#: ../common/includes/class-hooks.php:51 ../common/includes/class-hooks.php:66
 msgid "Verify Email"
 msgstr ""
 
-#: ../template/email/verification-email.php:35
-msgid ""
-"If the button doesn't work, copy and paste this link into your browser:"
+#: ../common/includes/class-hooks.php:83
+msgid "Buy Now"
 msgstr ""
 
-#: ../template/email/verification-email.php:39
+#: ../common/includes/class-hooks.php:167
+msgid "Just a Quick Reminder"
+msgstr ""
+
+#: ../common/includes/class-hooks.php:168
+msgid "Last Chance! 20% Off Ends in 3 Days"
+msgstr ""
+
+#: ../common/public/class-frontend.php:142
+msgid "Nonce failed."
+msgstr ""
+
+#: ../common/public/class-frontend.php:194
+msgid "Email already added in this product."
+msgstr ""
+
+#: ../common/public/class-frontend.php:197
+msgid "Please enter the email address."
+msgstr ""
+
+#: ../core/class-admin.php:202 ../core/class-license.php:35
+#: ../core/class-license.php:135
+msgid "Sorry, not verified."
+msgstr ""
+
+#: ../core/class-admin.php:222
+msgid "Settings saved!"
+msgstr ""
+
+#: ../core/class-admin.php:254 ../core/class-admin.php:255
+msgid "Store Boost Kit"
+msgstr ""
+
+#: ../core/class-admin.php:265 ../core/class-admin.php:266
+msgid "Dashboard"
+msgstr ""
+
+#: ../core/class-admin.php:286 ../core/class-admin.php:287
+#: ../core/views/license.php:18 ../core/views/license.php:25
+msgid "License"
+msgstr ""
+
+#: ../core/class-cron-logs-table.php:39
+msgid "Hook"
+msgstr ""
+
+#: ../core/class-cron-logs-table.php:41
+msgid "Arguments"
+msgstr ""
+
+#: ../core/class-cron-logs-table.php:43
+msgid "Schedule"
+msgstr ""
+
+#: ../core/class-cron-logs-table.php:44
+msgid "Next Run"
+msgstr ""
+
+#: ../core/class-email-logs-table.php:41
+msgid "Sent"
+msgstr ""
+
+#: ../core/class-email-logs-table.php:42
+msgid "Sent At"
+msgstr ""
+
+#: ../core/class-license.php:66 ../core/class-license.php:96
+#: ../core/class-license.php:171
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: ../core/class-license.php:74
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: ../core/class-license.php:79
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: ../core/class-license.php:82
+msgid "Invalid license."
+msgstr ""
+
+#: ../core/class-license.php:86
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: ../core/class-license.php:90
+msgid "This appears to be an invalid license key for this product."
+msgstr ""
+
+#: ../core/class-license.php:93
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: ../core/class-license.php:116
+msgid "License activated succesfully!"
+msgstr ""
+
+#: ../core/class-license.php:194
+msgid "License deactivated succesfully!"
+msgstr ""
+
+#: ../core/class-list-table.php:139
+msgid "Delete permanently"
+msgstr ""
+
+#: ../core/class-list-table.php:285
+msgid "Export All to CSV"
+msgstr ""
+
+#: ../core/class-list-table.php:301
+msgid "You do not have permission to export data."
+msgstr ""
+
+#: ../core/class-list-table.php:306
+msgid "Invalid nonce."
+msgstr ""
+
+#: ../core/class-metabox.php:170 ../core/class-metabox.php:188
+msgid "Item: "
+msgstr ""
+
+#: ../core/class-metabox.php:216
+msgid "Add Item"
+msgstr ""
+
+#: ../core/class-metabox.php:312
+msgid "Select Media"
+msgstr ""
+
+#: ../core/class-metabox.php:315
+msgid "Remove All"
+msgstr ""
+
+#: ../core/class-onboarding.php:119 ../core/class-onboarding.php:120
+msgid "Onboarding"
+msgstr ""
+
+#: ../core/class-onboarding.php:188
+msgid "Step file missing. Please contact support."
+msgstr ""
+
+#: ../core/class-onboarding.php:208
+msgid "Back"
+msgstr ""
+
+#: ../core/class-onboarding.php:215
+msgid "Continue"
+msgstr ""
+
+#: ../core/class-onboarding.php:219 ../includes/class-restaler.php:156
+msgid "Finish"
+msgstr ""
+
+#: ../core/class-onboarding.php:257
+msgid "Getting Things Ready"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:40
+msgid "Quick Feedback"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:41
+msgid "If you have a moment, please share why you're deactivating the plugin:"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:48
+msgid "It's a temporary deactivation"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:54
+msgid "The plugin stopped working"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:60
+msgid "I found a better plugin"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:67
+msgid "The plugin lacks a feature I need"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:74
+msgid "The plugin is difficult to use"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:80
+msgid "Other reason"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:87
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:88
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:137
+msgid "Feedback sent successfully"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:143
+msgid "Failed to send"
+msgstr ""
+
+#: ../core/class-plugin-deactivation-feedback.php:199
+msgid "HubSpot API Error"
+msgstr ""
+
+#: ../core/class-plugin-updater.php:297
+#, php-format
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: ../core/class-plugin-updater.php:303
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#: ../core/class-plugin-updater.php:326
+msgid "Update now."
+msgstr ""
+
+#: ../core/class-plugin-updater.php:558
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ../core/class-plugin-updater.php:558
+msgid "Error"
+msgstr ""
+
+#: ../core/class-settings.php:278
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: ../core/class-settings.php:307
+msgid "Save Settings"
+msgstr ""
+
+#: ../core/class-settings.php:429
+msgid "HTML"
+msgstr ""
+
+#: ../core/class-settings.php:430
+msgid "CSS"
+msgstr ""
+
+#: ../core/views/dashboard.php:56
+msgid "Welcome to Store Boost Kit"
+msgstr ""
+
+#: ../core/views/dashboard.php:62
+msgid "Quick Links"
+msgstr ""
+
+#: ../core/views/dashboard.php:64 ../onboarding/step-finish.php:19
+msgid "Support"
+msgstr ""
+
+#: ../core/views/dashboard.php:65 ../onboarding/step-finish.php:18
+msgid "Help Desk"
+msgstr ""
+
+#: ../core/views/dashboard.php:66
+msgid "FAQ"
+msgstr ""
+
+#: ../core/views/dashboard.php:67
+msgid "My Account"
+msgstr ""
+
+#: ../core/views/dashboard.php:80
+msgid "Licenses"
+msgstr ""
+
+#: ../core/views/dashboard.php:102
+msgid "Manage Licenses"
+msgstr ""
+
+#: ../core/views/dashboard.php:110
+msgid "News & Updates"
+msgstr ""
+
+#: ../core/views/dashboard.php:125
+msgid "Announcements & Promotions"
+msgstr ""
+
+#: ../core/views/license.php:26
+msgid "Action"
+msgstr ""
+
+#: ../core/views/license.php:27
+msgid "Expires At"
+msgstr ""
+
+#: ../core/views/license.php:41
+msgid "Enter license key"
+msgstr ""
+
+#: ../core/views/license.php:43
+msgid "Activate"
+msgstr ""
+
+#: ../core/views/license.php:44
+msgid "Deactivate"
+msgstr ""
+
+#: ../core/views/license.php:53
+msgid "None of the Pro versions are activated."
+msgstr ""
+
+#: ../core/views/status.php:24
+msgid "Logs"
+msgstr ""
+
+#: ../core/views/status.php:25 ../core/views/status.php:194
+msgid "Email Logs"
+msgstr ""
+
+#: ../core/views/status.php:26 ../core/views/status.php:215
+msgid "Scheduled Actions"
+msgstr ""
+
+#: ../core/views/status.php:35
+msgid "Plugin Status"
+msgstr ""
+
+#: ../core/views/status.php:118
+msgid "No debug logs have been recorded yet."
+msgstr ""
+
+#: ../core/views/status.php:176
+msgid "Download Logs"
+msgstr ""
+
+#: ../core/views/status.php:182
+msgid "Clear Logs"
+msgstr ""
+
+#: ../includes/class-restaler.php:154
+msgid "Welcome"
+msgstr ""
+
+#: ../includes/class-restaler.php:155
+msgid "General Setup"
+msgstr ""
+
+#: ../onboarding/step-finish.php:13
+msgid "Setup Complete!"
+msgstr ""
+
+#: ../onboarding/step-finish.php:14
+msgid "You're all set to start using Restock Alerts Pro for WooCommerce."
+msgstr ""
+
+#: ../onboarding/step-finish.php:17
+msgid "Documentation"
+msgstr ""
+
+#: ../onboarding/step-finish.php:17
+msgid " - Learn how to configure and use the plugin."
+msgstr ""
+
+#: ../onboarding/step-finish.php:18
+msgid " - Browse FAQs and troubleshooting guides."
+msgstr ""
+
+#: ../onboarding/step-finish.php:19
+msgid " - Contact our team if you need direct assistance."
+msgstr ""
+
+#: ../onboarding/step-settings.php:15
+msgid "Configure General Settings"
+msgstr ""
+
+#: ../onboarding/step-settings.php:16
 msgid ""
-"This verification link will expire soon. If you did not request this, "
-"please ignore this email."
+"Set your default preferences for product expiry. You can always change "
+"these later in the plugin settings."
+msgstr ""
+
+#: ../onboarding/step-settings.php:29
+msgid "Enable Follow Up"
+msgstr ""
+
+#: ../onboarding/step-settings.php:40
+msgid "Save"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:15
+msgid "Welcome to Restock Alerts"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:16
+msgid "Thank you for installing Restock Alerts Pro for WooCommerce!"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:20
+msgid "Why you'll love this?"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:22
+msgid "Automatic restock alerts"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:22
+msgid " - Notify customers instantly when items are back in stock"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:23
+msgid "Smart stock monitoring"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:23
+msgid " - CRON scheduling & threshold alerts ensure no restock goes unnoticed"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:24
+msgid "Beautiful email campaigns"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:24
+msgid ""
+" - Customizable templates with professional designs & dynamic mail tags"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:25
+msgid "Subscriber & email logs"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:25
+msgid " - Track alerts, manage subscribers, and export lists in CSV"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:26
+msgid "Seamless WooCommerce integration"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:26
+msgid ""
+" - Works with simple & variable products, no third-party services required"
+msgstr ""
+
+#: ../onboarding/step-welcome.php:29
+msgid ""
+"In just a few steps, you'll be ready to set expiry rules for your products."
+msgstr ""
+
+#: ../templates/notify-form.php:29
+msgid "Enter your email address"
+msgstr ""
+
+#: ../templates/notify-form.php:30
+msgid "Notify Me"
 msgstr ""
